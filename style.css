@@ -1,0 +1,377 @@
+html, body {
+  height: 95%;
+}
+
+body {
+    background-image: url(./fundo/fundo.png);
+    background-size: cover;
+}
+.navbar {
+    background-color: #202020;
+    width: 100%;
+    height: 35px;
+    padding: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    z-index: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 3px;
+  }
+  
+  a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .logo {
+    width: 40px; /* ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    transition: opacity 0.2s ease-in-out;
+    position: absolute;
+  }
+  
+  .logo:hover {
+    opacity: 0.8; /* diminui a opacidade da imagem ao passar o cursor por cima */
+  }
+  .search {
+    margin-left: 55px;
+    width: 31px;
+    align-self: flex-end;
+    transition: opacity 0.2s ease-in-out;
+  }
+.search:hover {
+    opacity: 0.8;
+}
+.archive {
+    margin-left: 25px;
+    width: 31px;
+    align-self: flex-end;
+    transition: opacity 0.2s ease-in-out;
+  }
+.archive:hover {
+    opacity: 0.8;
+}
+.configure {
+    margin-left: 23px;
+    width: 29px;
+    align-self: flex-end;
+    transition: opacity 0.2s ease-in-out;
+    vertical-align: 10%;
+    position: absolute;
+  }
+.configure:hover {
+    opacity: 0.8;
+}
+.theme {
+    margin-left: 75px;
+    width: 29px;
+    align-self: flex-end;
+    transition: opacity 0.2s ease-in-out;
+    vertical-align: 10%;
+    position: absolute;
+  }
+.theme:hover {
+    opacity: 0.8;
+}
+.fullpage {
+    margin-left: 128px;
+    width: 29px;
+    align-self: flex-end;
+    transition: opacity 0.2s ease-in-out;
+    vertical-align: 10%;
+    position: absolute;
+  }
+.fullpage:hover {
+    opacity: 0.8;
+}
+#barra {
+  position: absolute;
+  top: 0%; /* Ajuste esta propriedade conforme necessário */
+  left: 0%;
+  width: 320px; /* Ajuste esta propriedade conforme necessário */
+  height: 90.5%;
+  background-color: #202020;
+  padding: 10px;
+  display: none;
+  z-index: 5;
+}
+.offbutton {
+  width: 29px;
+  position: absolute;
+  top: 93%;
+  transition: opacity 0.2s ease-in-out;
+}
+.offbutton:hover {
+  opacity: 0.8;
+  
+}
+.desligar {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 92.9%;
+  left: 17%;
+  transition: opacity 0.2s ease-in-out;
+}
+.configure2 {
+  position: absolute;
+  top: 85.9%;
+  left: 2.5%;
+  width: 34.8px;
+  transition: opacity 0.2s ease-in-out;
+}
+.configure2:hover {
+  opacity: 0.8; 
+}
+.configurações {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 86.5%;
+  left: 17%;
+  transition: opacity 0.2s;
+}
+.theme2 {
+  width: 35px;
+  top: 78.9%;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+}
+.theme2:hover {
+  opacity: 0.8;
+}
+.temas {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 79.9%;
+  left: 17%;
+  transition: opacity 0.2s ease-in-out;
+
+}
+.temas:hover {
+  opacity: 0.8;
+}
+.configurações:hover {
+  opacity: 0.8;
+}
+.desligar:hover {
+  opacity: 0.8;
+}
+#barra-pesquisa {
+  position: absolute;
+  top: 10.8%; /* Ajuste esta propriedade conforme necessário */
+  left: 6.9%;
+  width: 920px; /* Ajuste esta propriedade conforme necessário */
+  height: 70.5%;
+  background-color: #202020;
+  padding: 10px;
+  display: none;
+  z-index: 5;
+}
+.search2 {
+width: 45px;
+position: absolute;
+top: 92%;
+}
+input {
+  position: absolute;
+  width: 850px;
+  height: 35px;
+  top: 92%;
+  left: 7%;
+  outline: none;
+}
+.documents {
+  width: 30px;
+  top: 72%;
+  left: 4%;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+}
+.documents:hover {
+  opacity: 0.8;
+}
+.documentos {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 72.9%;
+  left: 17%;
+  transition: opacity 0.2s ease-in-out;
+}
+.documentos:hover {
+  opacity: 0.8;
+}
+.perfil {
+  width: 40px;
+  position: absolute;
+  top: 64%;
+  left: 2.3%;
+  transition: opacity 0.2s ease-in-out;
+}
+.perfil:hover {
+  opacity: 0.8;
+}
+.usuario {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 65.9%;
+  left: 17%;
+  transition: opacity 0.2s ease-in-out;
+}
+.usuario:hover {
+  opacity: 0.8;
+}
+#barra-documents {
+  position: absolute;
+  top: 0%; /* Ajuste esta propriedade conforme necessário */
+  left: 9.5%;
+  width: 920px; /* Ajuste esta propriedade conforme necessário */
+  height: 90.5%;
+  background-color: #202020;
+  padding: 10px;
+  display: none;
+  z-index: 0;
+}
+#barra-configure {
+  position: absolute;
+  top: 0%; /* Ajuste esta propriedade conforme necessário */
+  left: 13.7%;
+  width: 920px; /* Ajuste esta propriedade conforme necessário */
+  height: 90.5%;
+  background-color: #202020;
+  padding: 10px;
+  display: none;
+  z-index: 0;
+}
+.menu {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  left: 4%;
+}
+.abapesquisa {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  left: 3%;
+  font-size: 30px;
+}
+#barra-tema {
+  position: absolute;
+  top: 5%; /* Ajuste esta propriedade conforme necessário */
+  left: 20.7%;
+  width: 820px; /* Ajuste esta propriedade conforme necessário */
+  height: 83.5%;
+  background-color: #202020;
+  padding: 10px;
+  display: none;
+  z-index: 0;
+}
+.abatemas {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  left: 44%;
+  position: absolute;
+}
+.fundo {
+  position: absolute;
+  width: 350px;
+  top: 20%;
+  left: 5%;
+}
+.fundo1 {
+  position: absolute;
+  width: 350px;
+  top: 60%;
+  left: 5%;
+}
+.fundo2 {
+  position: absolute;
+  width: 350px;
+  top: 20%;
+  right: 5%;
+}
+.fundo4 {
+  position: absolute;
+  width: 350px;
+  top: 60%;
+  right: 5%;
+}
+.lixo1 {
+  width: 60px;
+  transition: opacity 0.2s ease-in-out;
+}
+.lixo1:hover {
+  opacity: 0.8;
+}
+.barra1 {
+  position: absolute;
+  top: 5%; /* Ajuste esta propriedade conforme necessário */
+  left: 20.7%;
+  width: 820px; /* Ajuste esta propriedade conforme necessário */
+  height: 83.5%;
+  background-color: #c6c6c6;
+  padding: 10px;
+  display: none;
+  z-index: 5;
+}
+.txt {
+  width: 48px;
+  transition: opacity 0.2s ease-in-out;
+  top: 12%;
+  left: 1.6%;
+  z-index: 0%;
+  position: absolute;
+}
+.txt:hover {
+  opacity: 0.8
+}
+.icons {
+  z-index: 0;
+}
+.teranav {
+  width: 61px;
+  position: absolute;
+  top: 21.3%;
+  left: 6.5px;
+  transition: opacity 0.2s ease-in-out;
+}
+.teranav:hover {
+  opacity: 0.8;
+}
+.barratext {
+    position: absolute;
+    top: 0%; /* Ajuste esta propriedade conforme necessário */
+    left: 13.7%;
+    width: 920px; /* Ajuste esta propriedade conforme necessário */
+    height: 90.5%;
+    background-color: #202020;
+    padding: 10px;
+    display: none;
+    z-index: 0;
+  }
